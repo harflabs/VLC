@@ -35,17 +35,17 @@ let package = Package(
     .binaryTarget(
       name: "MobileVLCKit",
       url: "https://github.com/harflabs/VLC/releases/download/3.7.0/MobileVLCKit.zip",
-      checksum: "c56b6eac4330643fbdf0362ea1d932ef7e8f726db1e6db0b5a72edc7d9e5515f"
+      checksum: "5bc436aeb94f765a22d103dd101979ace1ed81c5fef1460e2785ba1093699d97"
     ),
     .binaryTarget(
       name: "TVVLCKit",
       url: "https://github.com/harflabs/VLC/releases/download/3.7.0/TVVLCKit.zip",
-      checksum: "612279478c5d4557cccadffb9db99bcefdeef1e14b3ed45fe3e5302d7397f247"
+      checksum: "46d47370d868f4da00971c68941754fdb45d304cccff3cb58e8978e57075dc4c"
     ),
     .binaryTarget(
       name: "VLCKit",
       url: "https://github.com/harflabs/VLC/releases/download/3.7.0/VLCKit.zip",
-      checksum: "8db074f2e3bc25aa2b4c25e65acb921e71ed93a59fc35082b6671359a21ade90"
+      checksum: "b73618a24b19c921f1c6f3a365ade7bc9d2eafd6d995bdd5534432c3effd2f52"
     ),
   ]
 )

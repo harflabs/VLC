@@ -30,8 +30,7 @@ let package = Package(
         .linkedFramework("MobileVLCKit", .when(platforms: [.iOS])),
         .linkedFramework("TVVLCKit", .when(platforms: [.tvOS])),
         .linkedFramework("VLCKit", .when(platforms: [.macOS])),
-      ],
-      path: "Sources"
+      ]
     ),
     .binaryTarget(
       name: "MobileVLCKit",
